@@ -1,0 +1,3 @@
+glob:*.exe
+glob:*.lnk
+glob:original.*

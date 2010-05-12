@@ -1,0 +1,30 @@
+{smcl}
+{* 14apr2009}{...}
+{cmd:help npp}
+{hline}
+
+
+{title:Title}
+
+{phang}Open something in notepad++
+{p_end}
+
+
+{title:Syntax}
+
+{phang} {cmdab:npp} {it:filename}
+
+
+{title:Other Information}
+
+{phang}Author: Keith Kranker (kranker@econ.umd.edu)
+
+{phang}Version: 1.0 27apr2010
+
+
+{title:Also see}
+
+{psee}
+Online:  
+{help doedit}, {help winexec}
+{p_end}
