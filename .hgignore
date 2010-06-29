@@ -1,3 +1,4 @@
 glob:*.exe
 glob:*.lnk
+glob:*.zip
 glob:original.*

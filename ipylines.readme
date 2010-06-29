@@ -1,0 +1,15 @@
+Hi Keith
+
+I've created a version of your program that allows passing of lines from Notepad++ to IPython (in this case PyLab from the Enthought Python Distribution). It's just some minor tweaks, but I thought you might find it interesting or want to add it to the google page (I'll put it on my own website eventually, but haven't had time yet).
+
+The changes are
+1. Restores clipboard after pasting into target program
+2. Creates a temporary .py file for multiple lines, but for single lines or just a portion of a line it copies and pastes the command directly (this is useful in Python so you can see the values returned, which running a .py file often suppresses)
+3. Ditched the .ini for now, simply to make distribution easier among my colleagues
+
+When I get a chance, I'm going to generalize it to have one key access to IPython, Stata, and R.
+
+Thanks so much for posting your code, saved me a lot of time!
+
+Best
+Kyle
