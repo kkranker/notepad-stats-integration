@@ -1,309 +1,64 @@
 <NotepadPlus>
-  <UserLang name="Stata Commands" ext="do ado DO ADO">
-    <Settings>
-      <Global caseIgnored="yes" />
-      <TreatAsSymbol comment="no" commentLine="no" />
-      <Prefix words1="no" words2="no" words3="no" words4="no" />
-    </Settings>
-    <KeywordLists>
-      <Keywords name="Delimiters">"`0"'0</Keywords>
-      <Keywords name="Folder+">{</Keywords>
-      <Keywords name="Folder-">}</Keywords>
-      <Keywords name="Operators">- ! # $ % &amp; . : [ ] ^ + &lt; =
-      &gt;</Keywords>
-      <Keywords name="Comment">1/* 1 2*/ 0* 0// 0/// 0</Keywords>
-      <Keywords name="Words1">do exit shell ado</Keywords>
-      <Keywords name="Words2">use clear preserve restore joinby
-      merge append cross collapse contract reshape erase</Keywords>
-      <Keywords name="Words3">about ado an ano anov anova anovadef
-      ap app appe appen append args as ass asse asser assert br
-      break bro brow brows browse by bys byso bysor bysort cap capt
-      captu captur capture cat cd char chdir checksum chelp cl
-      class cli clis clist cmdlog compress conf confi confir
-      confirm cons const constr constra constrai constrain
-      constraint continue copy cor corr corre correl correla
-      correlat correlate cou coun count cox cret cretu cretur
-      creturn datasig datasign datasigna datasignat datasignatu
-      datasignatur datasignature dec deco decod decode di di_g dir
-      dis discard disp displ displa display do doe doed doedi
-      doedit drop e ed edi edit else en enc enco encod encode erase
-      eret eretu eretur ereturn err erro error ex exi exit expand
-      fdades fdadesc fdadescr fdadescri fdadescrib fdadescribe
-      fdasav fdasave fdause file filefilter fl fli flis flist
-      foreach form forma format forv forva forval forvalu forvalue
-      forvalues g ge gen gene gener genera generat generate
-      gettoken gl glo glob globa global gprefs gr7 graph7 haver
-      hexdump if include inf infi infil infile infix inp inpu input
-      ins insheet insp inspe inspec inspect keep l la lab labe
-      label li lis list loc loca local log lookup ls m ma mac macr
-      macro man manova manovatest mark markin markout marksample
-      mat mat_put_rr mata mata_clear mata_describe mata_drop
-      mata_memory mata_mlib mata_mosave mata_rename mata_which matr
-      matri matrix memory mkdir mleval mlmatbysum mlmatsum mlsum
-      mlvecsum mor more mov move n net news no nobreak noi nois
-      noisi noisil noisily notes_dlg numlist odbc on one onew onewa
-      oneway order ou out outf outfi outfil outfile outs outsh
-      outshe outshee outsheet parse pl plo plot plugin post
-      postclose postfile postutil pr preserve pro prog progr progra
-      program pwd q qu que quer query qui quie quiet quietl quietly
-      ren rena renam rename replace restore ret retu retur return
-      rmdir ru run sa sav save sca scal scala scalar se search
-      serset set sh she shel shell sleep so sor sort sret sretu
-      sretur sreturn su sum summ summa summar summari summariz
-      summarize syntax sysdir ta tab tabd tabdi tabdis tabdisp tabu
-      tabul tabula tabulat tabulate tempfile tempname tempvar timer
-      token tokeni tokeniz tokenize translate translator transmap
-      tsrevar ty typ type u unabcmd update us use vers versi versio
-      version view wh whi which whil while win wind windo window
-      winexec xmlsav xmlsave xmluse xsh xshe xshel
-      xshell</Keywords>
-      <Keywords name="Words4">ac ac_7 acprplot acprplot_7 adjust
-      adopath adoupdate alpha ameans anova_estat anova_terms aorder
-      arch arch_dr arch_estat arch_p archlm areg areg_p arima
-      arima_dr arima_estat arima_p asmprobit asmprobit_estat
-      asmprobit_lf asmprobit_mfx__dlg asmprobit_p avplot avplot_7
-      avplots avplots_7 bcskew0 bgodfrey binreg bip0_lf biplot
-      bipp_lf bipr_lf bipr_p biprobit bitest bitesti bitowt blogit
-      bmemsize boot bootsamp bootstrap bootstrap_8 boxco_l boxco_p
-      boxcox boxcox_6 boxcox_p bprobit brier brr brrstat bs bs_7
-      bsampl_w bsample bsample_7 bsqreg bstat bstat_7 bstat_8
-      bstrap bstrap_7 ca ca_estat ca_p cabiplot camat canon canon_8
-      canon_8_p canon_estat canon_p caprojection cc cchart cchart_7
-      cci censobs_table centile cf checkdlgfiles
-      checkestimationsample checkhlpfiles ci cii classutil clear
-      clo clog clog_lf clog_p clogi clogi_sw clogit clogit_lf
-      clogit_p clogitp clogl_sw cloglog clonevar clslistarray
-      cluster cluster_measures cluster_stop cluster_tree
-      cluster_tree_8 clustermat cnr cnre cnreg cnreg_p cnreg_sw
-      cnsreg codebook collaps4 collapse colormult_nb colormult_nw
-      compare conren contract copyright copysource corc corr2data
-      corr_anti corr_kmo corr_smc corrgram cox_p cox_sw coxbase
-      coxhaz coxvar cprplot cprplot_7 crc cross cs cscript
-      cscript_log csi ct ct_is ctset ctst_5 ctst_st cttost cumsp
-      cumsp_7 cumul cusum cusum_7 cutil d datetof db dbeta de deff
-      des desc descr descri describ describe destring dfbeta dfgls
-      dfuller dirstats disp_res disp_s dotplot dotplot_7 dprobit
-      drawnorm ds ds_util dstdize duplicates durbina dwstat dydx
-      egen eivreg emdef eq ereg ereg_lf ereg_p ereg_sw ereghet
-      ereghet_glf ereghet_glf_sh ereghet_gp ereghet_ilf
-      ereghet_ilf_sh ereghet_ip est est_cfexist est_cfname
-      est_clickable est_expand est_hold est_table est_unhold
-      est_unholdok estat estat_default estat_summ estat_vce_only
-      esti estimates etodow etof etomdy expandcl fac fact facto
-      factor factor_estat factor_p factor_pca_rotated factor_rotate
-      factormat fcast fcast_compute fcast_graph fh_st fillin
-      find_hlp_file findfile findit findit_7 fit for for5_0
-      fpredict frac_154 frac_adj frac_chk frac_cox frac_ddp
-      frac_dis frac_dv frac_in frac_mun frac_pp frac_pq frac_pv
-      frac_wgt frac_xo fracgen fracplot fracplot_7 fracpoly
-      fracpred fron_ex fron_hn fron_p fron_tn fron_tn2 frontier
-      ftodate ftoe ftomdy ftowdate gamhet_glf gamhet_gp gamhet_ilf
-      gamhet_ip gamma gamma_d2 gamma_p gamma_sw gammahet
-      gdi_hexagon gdi_spokes genrank genstd genvmean gladder
-      gladder_7 glim_l01 glim_l02 glim_l03 glim_l04 glim_l05
-      glim_l06 glim_l07 glim_l08 glim_l09 glim_l10 glim_l11
-      glim_l12 glim_lf glim_mu glim_nw1 glim_nw2 glim_nw3 glim_p
-      glim_v1 glim_v2 glim_v3 glim_v4 glim_v5 glim_v6 glim_v7 glm
-      glm_6 glm_p glm_sw glmpred glogit glogit_8 glogit_p gmeans
-      gnbre_lf gnbreg gnbreg_5 gnbreg_p gomp_lf gompe_sw gomper_p
-      gompertz gompertzhet gomphet_glf gomphet_glf_sh gomphet_gp
-      gomphet_ilf gomphet_ilf_sh gomphet_ip gphdot gphpen gphprint
-      gprobi_p gprobit gprobit_8 gr gr_copy gr_current gr_db
-      gr_describe gr_dir gr_draw gr_draw_replay gr_drop gr_edit
-      gr_editviewopts gr_example gr_example2 gr_export gr_print
-      gr_qscheme gr_query gr_read gr_rename gr_replay gr_save
-      gr_set gr_setscheme gr_table gr_undo gr_use graph grebar
-      greigen greigen_7 greigen_8 grmeanby grmeanby_7 gs_fileinfo
-      gs_filetype gs_graphinfo gs_stat gsort gwood h hadimvo hareg
-      hausman he heck_d2 heckma_p heckman heckp_lf heckpr_p
-      heckprob hel help hereg hetpr_lf hetpr_p hetprob hettest
-      hilite hist hist_7 histogram hlogit hlu hmeans hotel
-      hotelling hprobit hreg hsearch icd9 icd9_ff icd9p iis impute
-      imtest inbase integ inten intreg intreg_7 intreg_p intrg2_ll
-      intrg_ll intrg_ll2 ipolate iqreg ir irf irf_create irfm iri
-      is_svy is_svysum isid istdize ivprob_1_lf ivprob_lf ivprobit
-      ivprobit_p ivreg ivreg_footnote ivtob_1_lf ivtob_lf ivtobit
-      ivtobit_p jackknife jacknife jknife jknife_6 jknife_8 jkstat
-      joinby kalarma1 kap kap_3 kapmeier kappa kapwgt kdensity
-      kdensity_7 ksm ksmirnov ktau kwallis labelbook ladder levels
-      levelsof leverage lfit lfit_p lincom line linktest
-      lloghet_glf lloghet_glf_sh lloghet_gp lloghet_ilf
-      lloghet_ilf_sh lloghet_ip llogi_sw llogis_p llogist llogistic
-      llogistichet lnorm_lf lnorm_sw lnorma_p lnormal lnormalhet
-      lnormhet_glf lnormhet_glf_sh lnormhet_gp lnormhet_ilf
-      lnormhet_ilf_sh lnormhet_ip lnskew0 loadingplot logi logis_lf
-      logistic logistic_p logit logit_estat logit_p loglogs logrank
-      loneway lookfor lowess lowess_7 lpredict lrecomp lroc lroc_7
-      lrtest lsens lsens_7 lsens_x lstat ltable ltable_7 ltriang lv
-      lvr2plot lvr2plot_7 makecns manova_estat manova_p mantel
-      mat_capp mat_order mat_rapp mata_matdescribe mata_matsave
-      mata_matuse matalabel matcproc matlist matname
-      matrix_input__dlg matstrik mcc mcci md0_ md1_ md1debug_ md2_
-      md2debug_ mds mds_estat mds_p mdsconfig mdslong mdsmat
-      mdsshepard mdytoe mdytof me_derd mean means median memsize
-      meqparse mer merg merge mfp mfx mhelp mhodds minbound
-      mixed_ll mixed_ll_reparm mkassert mkmat mkspline ml ml_5
-      ml_adjs ml_bhhhs ml_c_d ml_check ml_clear ml_cnt ml_debug
-      ml_defd ml_e0 ml_e0_bfgs ml_e0_cycle ml_e0_dfp ml_e0i ml_e1
-      ml_e1_bfgs ml_e1_bhhh ml_e1_cycle ml_e1_dfp ml_e2 ml_e2_cycle
-      ml_ebfg0 ml_ebfr0 ml_ebfr1 ml_ebh0q ml_ebhh0 ml_ebhr0
-      ml_ebr0i ml_ecr0i ml_edfp0 ml_edfr0 ml_edfr1 ml_edr0i ml_eds
-      ml_eer0i ml_egr0i ml_elf ml_elf_bfgs ml_elf_bhhh ml_elf_cycle
-      ml_elf_dfp ml_elfi ml_elfs ml_enr0i ml_enrr0 ml_erdu0
-      ml_erdu0_bfgs ml_erdu0_bhhh ml_erdu0_bhhhq ml_erdu0_cycle
-      ml_erdu0_dfp ml_erdu0_nrbfgs ml_exde ml_footnote ml_geqnr
-      ml_grad0 ml_graph ml_hbhhh ml_hd0 ml_hold ml_init ml_inv
-      ml_log ml_max ml_mlout ml_mlout_8 ml_model ml_nb0 ml_opt ml_p
-      ml_plot ml_query ml_rdgrd ml_repor ml_s_e ml_score ml_searc
-      ml_technique ml_unhold mlf_ mlog mlogi mlogit mlogit_footnote
-      mlogit_p mlopts mnl0_ mprobit mprobit_lf mprobit_p mrdu0_
-      mrdu1_ mvdecode mvencode mvreg mvreg_estat nbreg nbreg_al
-      nbreg_lf nbreg_p nbreg_sw nestreg newey newey_7 newey_p nl
-      nl_7 nl_9 nl_9_p nl_p nl_p_7 nlcom nlcom_p nlexp2 nlexp2_7
-      nlexp2a nlexp2a_7 nlexp3 nlexp3_7 nlgom3 nlgom3_7 nlgom4
-      nlgom4_7 nlinit nllog3 nllog3_7 nllog4 nllog4_7 nlog_rd
-      nlogit nlogit_p nlogitgen nlogittree nlpred note notes
-      nptrend numlabel old_ver olo olog ologi ologi_sw ologit
-      ologit_p ologitp op_colnm op_comp op_diff op_inv op_str opr
-      opro oprob oprob_sw oprobi oprobi_p oprobit oprobitp
-      opts_exclusive orthog orthpoly ovtest pac pac_7 palette
-      parse_dissim pause pca pca_8 pca_display pca_estat pca_p
-      pca_rotate pcamat pchart pchart_7 pchi pchi_7 pcorr pctile
-      pentium pergram pergram_7 permute permute_8 personal peto_st
-      pkcollapse pkcross pkequiv pkexamine pkexamine_7 pkshape
-      pksumm pksumm_7 pnorm pnorm_7 poisgof poiss_lf poiss_sw
-      poisso_p poisson poisson_estat pperron prais prais_e prais_e2
-      prais_p predict predictnl print prob probi probit
-      probit_estat probit_p proc_time procoverlay procrustes
-      procrustes_estat procrustes_p profiler prop proportion prtest
-      prtesti pwcorr qby qbys qchi qchi_7 qladder qladder_7 qnorm
-      qnorm_7 qqplot qqplot_7 qreg qreg_c qreg_p qreg_sw quadchk
-      quantile quantile_7 range ranksum ratio rchart rchart_7 rcof
-      recast recode reg reg3 reg3_p regdw regr regre regre_p2
-      regres regres_p regress regress_estat regriv_p remap renpfix
-      repeat reshape robvar roccomp roccomp_7 roccomp_8 rocf_lf
-      rocfit rocfit_8 rocgold rocplot rocplot_7 roctab roctab_7
-      rolling rologit rologit_p rot rota rotat rotate rotatemat
-      rreg rreg_p runtest rvfplot rvfplot_7 rvpplot rvpplot_7
-      safesum sample sampsi savedresults saveold sc scatter
-      scm_mine sco scob_lf scob_p scobi_sw scobit scor score
-      scoreplot scoreplot_help scree screeplot screeplot_help
-      sdtest sdtesti separate seperate serrbar serrbar_7
-      set_defaults sfrancia shewhart shewhart_7
-      signestimationsample signrank signtest simul simul_7 simulate
-      simulate_8 sktest slogit slogit_d2 slogit_p smooth snapspan
-      spearman spikeplot spikeplot_7 spikeplt spline_x split sqreg
-      sqreg_p ssc st st_ct st_hc st_hcd st_hcd_sh st_is st_issys
-      st_note st_promo st_set st_show st_smpl st_subid stack
-      statsby statsby_8 stbase stci stci_7 stcox stcox_estat
-      stcox_fr stcox_fr_ll stcox_p stcox_sw stcoxkm stcoxkm_7
-      stcstat stcurv stcurve stcurve_7 stdes stem stepwise stereg
-      stfill stgen stir stjoin stmc stmh stphplot stphplot_7
-      stphtest stphtest_7 stptime strate strate_7 streg streg_sw
-      streset sts sts_7 stset stsplit stsum sttocc sttoct stvary
-      stweib suest suest_8 sunflower sureg survcurv survsum svar
-      svar_p svmat svy svy_disp svy_dreg svy_est svy_est_7
-      svy_estat svy_get svy_gnbreg_p svy_head svy_header
-      svy_heckman_p svy_heckprob_p svy_intreg_p svy_ivreg_p
-      svy_logistic_p svy_logit_p svy_mlogit_p svy_nbreg_p
-      svy_ologit_p svy_oprobit_p svy_poisson_p svy_probit_p
-      svy_regress_p svy_sub svy_sub_7 svy_x svy_x_7 svy_x_p svydes
-      svydes_8 svygen svygnbreg svyheckman svyheckprob svyintreg
-      svyintreg_7 svyintrg svyivreg svylc svylog_p svylogit
-      svymarkout svymarkout_8 svymean svymlog svymlogit svynbreg
-      svyolog svyologit svyoprob svyoprobit svyopts svypois
-      svypois_7 svypoisson svyprobit svyprobt svyprop svyprop_7
-      svyratio svyreg svyreg_p svyregress svyset svyset_7 svyset_8
-      svytab svytab_7 svytest svytotal sw sw_8 swcnreg swcox swereg
-      swilk swlogis swlogit swologit swoprbt swpois swprobit swqreg
-      swtobit swweib symmetry symmi symplot symplot_7 sysdescribe
-      sysuse szroeter tab1 tab2 tab_or tabi table tabodds tabodds_7
-      tabstat te tes test testnl testparm teststd tetrachoric
-      time_it tis tob tobi tobit tobit_p tobit_sw tostring total
-      treat_ll treatr_p treatreg trim trnb_cons trnb_mean
-      trpoiss_d2 trunc_ll truncr_p truncreg tsappend tset tsfill
-      tsline tsline_ex tsreport tsrline tsset tssmooth tsunab ttest
-      ttesti tut_chk tut_wait tutorial tw tware_st two twoway
-      twoway__fpfit_serset twoway__function_gen
-      twoway__histogram_gen twoway__ipoint_serset
-      twoway__ipoints_serset twoway__kdensity_gen
-      twoway__lfit_serset twoway__normgen_gen twoway__pci_serset
-      twoway__qfit_serset twoway__scatteri_serset
-      twoway__sunflower_gen twoway_ksm_serset typeof unab unabbrev
-      uselabel var var_mkcompanion var_p varbasic varfcast
-      vargranger varirf varirf_add varirf_cgraph varirf_create
-      varirf_ctable varirf_describe varirf_dir varirf_drop
-      varirf_erase varirf_graph varirf_ograph varirf_rename
-      varirf_set varirf_table varlmar varnorm varsoc varstable
-      varstable_w varstable_w2 varwle vce vec vec_fevd vec_mkphi
-      vec_p vec_p_w vecirf_create veclmar veclmar_w vecnorm
-      vecnorm_w vecrank vecstable verinst viewsource vif vwls
-      wdatetof webdescribe webseek webuse weib1_lf weib2_lf weib_lf
-      weib_lf0 weibhet_glf weibhet_glf_sh weibhet_glfa
-      weibhet_glfa_sh weibhet_gp weibhet_ilf weibhet_ilf_sh
-      weibhet_ilfa weibhet_ilfa_sh weibhet_ip weibu_sw weibul_p
-      weibull weibull_c weibull_s weibullhet whelp wilc_st wilcoxon
-      wntestb wntestb_7 wntestq xchart xchart_7 xcorr xcorr_7 xi
-      xi_6 xpose xt_iis xt_tis xtab_p xtabond xtbin_p xtclog
-      xtcloglog xtcloglog_8 xtcloglog_d2 xtcloglog_pa_p
-      xtcloglog_re_p xtcnt_p xtcorr xtdata xtdes xtfront_p
-      xtfrontier xtgee xtgee_elink xtgee_estat xtgee_makeivar
-      xtgee_p xtgee_plink xtgls xtgls_p xthaus xthausman xtht_p
-      xthtaylor xtile xtint_p xtintreg xtintreg_8 xtintreg_d2
-      xtintreg_p xtivp_1 xtivp_2 xtivreg xtline xtline_ex xtlogit
-      xtlogit_8 xtlogit_d2 xtlogit_fe_p xtlogit_pa_p xtlogit_re_p
-      xtmixed xtmixed_estat xtmixed_p xtnb_fe xtnb_lf xtnbreg
-      xtnbreg_pa_p xtnbreg_refe_p xtpcse xtpcse_p xtpois xtpoisson
-      xtpoisson_d2 xtpoisson_pa_p xtpoisson_refe_p xtpred xtprobit
-      xtprobit_8 xtprobit_d2 xtprobit_re_p xtps_fe xtps_lf xtps_ren
-      xtps_ren_8 xtrar_p xtrc xtrc_p xtrchh xtrefe_p xtreg xtreg_be
-      xtreg_fe xtreg_ml xtreg_pa_p xtreg_re xtregar xtrere_p xtset
-      xtsf_ll xtsf_llti xtsum xttab xttest0 xttobit xttobit_8
-      xttobit_p xttrans yx yxview__barlike_draw yxview_area_draw
-      yxview_bar_draw yxview_dot_draw yxview_dropline_draw
-      yxview_function_draw yxview_iarrow_draw yxview_ilabels_draw
-      yxview_normal_draw yxview_pcarrow_draw yxview_pcbarrow_draw
-      yxview_pccapsym_draw yxview_pcscatter_draw
-      yxview_pcspike_draw yxview_rarea_draw yxview_rbar_draw
-      yxview_rbarm_draw yxview_rcap_draw yxview_rcapsym_draw
-      yxview_rconnected_draw yxview_rline_draw yxview_rscatter_draw
-      yxview_rspike_draw yxview_spike_draw yxview_sunflower_draw
-      zap_s zinb zinb_llf zinb_plf zip zip_llf zip_p zip_plf
-      zt_ct_5 zt_hc_5 zt_hcd_5 zt_is_5 zt_iss_5 zt_sho_5 zt_smp_5
-      ztbase_5 ztcox_5 ztdes_5 ztereg_5 ztfill_5 ztgen_5 ztir_5
-      ztjoin_5 ztnb ztnb_p ztp ztp_p zts_5 ztset_5 ztspli_5 ztsum_5
-      zttoct_5 ztvary_5 ztweib_5</Keywords>
-    </KeywordLists>
-    <Styles>
-      <WordsStyle name="DEFAULT" styleID="11" fgColor="000000"
-      bgColor="FFFFFF" fontName="" fontStyle="0" />
-      <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="408080"
-      bgColor="AFD1D8" fontName="" fontStyle="1" />
-      <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="408080"
-      bgColor="AFD1D8" fontName="" fontStyle="1" />
-      <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000"
-      bgColor="00FF00" fontName="" fontStyle="1" />
-      <WordsStyle name="KEYWORD2" styleID="6" fgColor="400040"
-      bgColor="FFFF00" fontName="" fontStyle="1" />
-      <WordsStyle name="KEYWORD3" styleID="7" fgColor="5959FF"
-      bgColor="FFFFFF" fontName="" fontStyle="0" />
-      <WordsStyle name="KEYWORD4" styleID="8" fgColor="0000FF"
-      bgColor="FFFFFF" fontName="" fontStyle="1" />
-      <WordsStyle name="COMMENT" styleID="1" fgColor="77773C"
-      bgColor="FFFFFF" fontName="" fontStyle="2" fontSize="10" />
-      <WordsStyle name="COMMENT LINE" styleID="2" fgColor="727238"
-      bgColor="FFFFFF" fontName="Verdana" fontStyle="2"
-      fontSize="10" />
-      <WordsStyle name="NUMBER" styleID="4" fgColor="C40062"
-      bgColor="FFFFFF" fontName="" fontStyle="0" />
-      <WordsStyle name="OPERATOR" styleID="10" fgColor="000080"
-      bgColor="FFFFFF" fontName="" fontStyle="1" />
-      <WordsStyle name="DELIMINER1" styleID="14" fgColor="910000"
-      bgColor="FFFFFF" fontName="" fontStyle="0" />
-      <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF0080"
-      bgColor="FFFFFF" fontName="" fontStyle="0" />
-      <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000"
-      bgColor="FFFFFF" fontName="" fontStyle="0" />
-    </Styles>
-  </UserLang>
+    <UserLang name="Stata" ext="do ado doh" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 00* 00/// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- # $ % &amp; , . : ; ^ | + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">do exit shell ado stcmd use clear preserve restore joinby merge append cross collapse contract addtable reshape erase save drop keep inputst outputst replace expand</Keywords>
+            <Keywords name="Keywords2">byte int long float double str1 str2 str3 str4 str5 str6 str7 str8 str9 str10 str11 str12 str13 str14 str15 str16 str17 str18 str19 str20 str21 str22 str23 str24 str25 str26 str27 str28 str29 str30 str31 str32 str33 str34 str35 str36 str37 str38 str39 str40 str41 str42 str43 str44 str45 str46 str47 str48 str49 str50 str51 str52 str53 str54 str55 str56 str57 str58 str59 str60 str61 str62 str63 str64 str65 str66 str67 str68 str69 str70 str71 str72 str73 str74 str75 str76 str77 str78 str79 str80 str81 str82 str83 str84 str85 str86 str87 str88 str89 str90 str91 str92 str93 str94 str95 str96 str97 str98 str99 str100 str101 str102 str103 str104 str105 str106 str107 str108 str109 str110 str111 str112 str113 str114 str115 str116 str117 str118 str119 str120 str121 str122 str123 str124 str125 str126 str127 str128 str129 str130 str131 str132 str133 str134 str135 str136 str137 str138 str139 str140 str141 str142 str143 str144 str145 str146 str147 str148 str149 str150 str151 str152 str153 str154 str155 str156 str157 str158 str159 str160 str161 str162 str163 str164 str165 str166 str167 str168 str169 str170 str171 str172 str173 str174 str175 str176 str177 str178 str179 str180 str181 str182 str183 str184 str185 str186 str187 str188 str189 str190 str191 str192 str193 str194 str195 str196 str197 str198 str199 str200 str201 str202 str203 str204 str205 str206 str207 str208 str209 str210 str211 str212 str213 str214 str215 str216 str217 str218 str219 str220 str221 str222 str223 str224 str225 str226 str227 str228 str229 str230 str231 str232 str233 str234 str235 str236 str237 str238 str239 str240 str241 str242 str243 str244 transmorphic matrix numeric vector real rowvector complex colvector string scalar pointer</Keywords>
+            <Keywords name="Keywords3">about ac ac_7 acprplot acprplot_7 adept adept_function adept_gender adept_gender_tables adept_labor adept_labor_tables adept_poverty adept_poverty_tables adept_sp adept_sp_tables adept_work adjust ado adoedit adopath adoupdate ais_tmpm alpha altcharl ameans an ano anov anova anova_estat anova_terms anovadef aorder ap apcfit apcspline apcspline_p app appe appen append aps arch arch_dr arch_estat arch_p archlm areg areg2 areg_11 areg_footnote areg_p arfima arfima_estat arfima_p arfimairf_create args arima arima_dr arima_estat arima_p as asclogit asclogit_estat asclogit_lf asclogit_p ascot asmprobit asmprobit_estat asmprobit_mfx__dlg asmprobit_p asprobit_estat asprobit_lf asprobit_p asprvalue asroprobit asroprobit_estat asroprobit_p ass asse asser assert attk attnd attnw attr atts avplot avplot_7 avplots avplots_7 bcal bcskew0 bfit bgodfrey binreg bip0_lf biplot biplot_10 bipp_lf bipr_lf bipr_p biprobit bitest bitesti bitowt blogit boot bootsamp bootstrap bootstrap_8 boxco_l boxco_p boxcox boxcox_6 boxcox_p bprobit br brant break brier bro brow brows browse brr brrstat bs bs_7 bsampl_w bsample bsample_7 bspline bsqreg bstat bstat_7 bstat_8 bstrap bstrap_7 by bys byso bysor bysort ca ca_estat ca_p ca_parse_normalize cabiplot camat candisc canon canon_8 canon_8_p canon_estat canon_p cap caplog caprojection capt captu captur capture case2alt cat catplot catplot_old cc cchart cchart_7 cci cd cdeco cdeco_jmp cem censobs_table center centile cf changeeol char chdir check_help checkdlgfiles checkestimationsample checkhlpfiles checksum chelp chitest chitest6 chitesti chitesti6 ci cii cl class classutil clear cli clis clist clo clog clog_lf clog_p clogi clogi_sw clogit clogit_lf clogit_p clogitp clogl_sw cloglog clonevar cls clslistarray cluster cluster_measures cluster_stop cluster_tree cluster_tree_8 clustermat cmdlog cmp cmp_clear cmp_d1 cmp_lf cmp_lf1 cmp_p cnr cnre cnreg cnreg_p cnreg_sw cnsreg codebook collaps4 collapse collin colormult_nb colormult_nw compare compress conf confi confir confirm confirmdir conren cons const constr constra constrai constrain constraint continue contour contract contrast contrasts copy copyright copysource cor corc corr corr2data corr_anti corr_kmo corr_smc corre correl correla correlat correlate corrgram cou coun count counterfactual countfit cox cox_p cox_sw coxbase coxhaz coxvar cprplot cprplot_7 crc cret cretu cretur creturn cross cs cscript cscript_log csi ct ct_is ctset ctst_5 ctst_st cttost cumsp cumsp_7 cumul cusum cusum_7 cutil d daclass daoneway datasig datasignature datetof db dbeta de dec deco decod decode deff des desc descr descri describ describe describe_mk describe_wrk_dlg descsave destring dfactor dfactor_estat dfactor_p dfbeta dfbeta_10 dfgls dfuller di di_g did2 dir dirstats dis discard discrim discrim_estat_common discrim_knn discrim_knn_estat discrim_knn_p discrim_lda discrim_lda_estat discrim_lda_p discrim_logistic discrim_logistic_estat discrim_logistic_p discrim_qda discrim_qda_estat discrim_qda_p disp disp_res disp_s displ displa display do do2htm doe doed doedi doedit dotplot dotplot_7 dprobit drawnorm drop ds ds_util dsconcat dstdize dta_equal dunnett duplicates durbina dvech dvech_p dwstat dydx e eclplot ed edi edit egen eivreg elixhaus else emdef en enc enco encod encode enumopt eq erase ereg ereg_lf ereg_p ereg_sw ereghet ereghet_glf ereghet_glf_sh ereghet_gp ereghet_ilf ereghet_ilf_sh ereghet_ip eret eretu eretur ereturn err erro error esize esizei est est_cfexist est_cfname est_clickable est_expand est_hold est_table est_unhold est_unholdok estadd estat estat_default estat_eform estat_esize estat_summ estat_vce_only esti estim estima estimat estimate estimates estimates_notes estimates_sample estout estpost estsimp eststo esttab etodow etof etomdy etpoisson etpoisson_p etreg etreg_fix_stripe etreg_restore_stripe etregr etregre etregres etregress ex exi exit exlogistic exlogistic_estat expand expandcl expoisson expoisson_estat export export_delimited export_excel expr_query extract_rmst extremes fac fact factext facto factor factor_estat factor_p factor_pca_rotated factor_rotate factormat fastgini fc fc_describe fc_get_modelname fc_problem_must_exist fc_solve fcast fcast_compute fcast_graph fdades fdadesc fdadescr fdadescri fdadescrib fdadescribe fdasav fdasave fdause fedit fh_st figout file filefilter fillin film find_hlp_file findfile findit findit_7 fit fitstat fl flexcurv fli flis flist fmm fmm_gamma_lf fmm_gamma_p fmm_lognormal_lf fmm_lognormal_p fmm_negbin1_lf fmm_negbin1_p fmm_negbin2_lf fmm_negbin2_p fmm_normal_lf fmm_normal_p fmm_poisson_lf fmm_poisson_p fmm_studentt_lf fmm_studentt_p fmmlc folders for for5_0 fore foreach forec foreca forecas forecast forecast_wrk_dlg form forma format forv forva forval forvalu forvalue forvalues fp fpredict frac_154 frac_adj frac_chk frac_cox frac_ddp frac_dis frac_dv frac_eqmodel frac_in frac_mun frac_pp frac_pq frac_pv frac_restrict frac_wgt frac_xo fracgen fracplot fracplot_7 fracpoly fracpoly_10 fracpred frencurv frmttable fron_ex fron_hn fron_p fron_tn fron_tn2 frontier fs ftabstat2 ftodate ftoe ftomdy ftowdate fvexpand fvrevar fvset fvunab g gamhet_glf gamhet_gp gamhet_ilf gamhet_ip gamma gamma_d2 gamma_p gamma_sw gammahet gammareg_lf gdi_hexagon gdi_spokes ge gen gene gener genera generat generate genrank genstd genvmean getcmds getmata gettoken ghk2version gicurve gidecomposition gl gladder gladder_7 glim_l01 glim_l02 glim_l03 glim_l04 glim_l05 glim_l06 glim_l07 glim_l08 glim_l09 glim_l10 glim_l11 glim_l12 glim_lf glim_mu glim_mypois glim_nw1 glim_nw2 glim_nw3 glim_p glim_v1 glim_v2 glim_v3 glim_v4 glim_v5 glim_v6 glim_v7 gllam_ll gllamm gllapred gllarob gllas_yu gllasim glm glm_6 glm_p glm_sw glmixed_b0 glmixed_b0r glmixed_ll glmixed_llr glmpred glo glob globa global glogit glogit_8 glogit_p gmeans gmm gmm_estat gmm_p gnbre_lf gnbreg gnbreg_5 gnbreg_p gomp_lf gompe_sw gomper_p gompertz gompertzhet gomphet_glf gomphet_glf_sh gomphet_gp gomphet_ilf gomphet_ilf_sh gomphet_ip gphdot gphpen gphprint gprefs gprobi_p gprobit gprobit_8 gr gr7 gr_copy gr_current gr_db gr_describe gr_dir gr_draw gr_draw_replay gr_drop gr_ed_axis_custom gr_ed_capture gr_ed_db gr_ed_dialog_util gr_edit gr_editviewopts gr_example gr_example2 gr_export gr_play gr_print gr_qscheme gr_query gr_read gr_redo gr_rename gr_replay gr_save gr_set gr_setscheme gr_table gr_undo gr_use graph graph7 grc1leg grebar greigen greigen_7 greigen_8 grmean grmeanby grmeanby_7 grss gs_fileinfo gs_filetype gs_graphinfo gs_stat gsem gsem_check_cluster gsem_ereturn gsem_estat gsem_estat_summ gsem_footnote gsem_markout gsem_model_hinfo_check gsem_newvarlist gsem_p gsem_parse gsem_parse_fl gsem_parse_gauss_args gsem_post gsort gwood h hadimvo hareg hausman haver he heck_d2 heckma_p heckman heckman_fix_stripe heckman_restore_stripe heckopr_p heckoprobit heckp_lf heckpr_p heckprob heckprobit heckprobit_p hel help hereg hetpr_lf hetpr_p hetprob hetprobit hetprobit_p hettest hexdump hglogit hilite hist hist_7 histogram hlogit hlu hmeans hotel hotelling hplogit hprobit hreg hsearch hshaz hshaz_ll icc icd9 icd9_ff icd9p icd9tmpm icdpic iciss if iis imb import import_delimited import_excel import_haver impute imtest inbase include inf infi infil infile infix inp inpu input inputst ins insheet insp inspe inspec inspect integ inten intreg intreg_7 intreg_p intrg2_ll intrg_ll intrg_ll2 ipolate iqreg ir irf irf_create irfm iri is_st is_svy is_svysum is_xt isid istdize itreatreg ivpoisson ivpoisson_estat ivpoisson_footnote ivpoisson_p ivprob_1_lf ivprob_lf ivprobit ivprobit_estat ivprobit_footnote ivprobit_p ivqte ivreg ivreg_footnote ivregress ivregress_epilog ivregress_estat ivregress_p ivregress_prolog ivtob_1_lf ivtob_lf ivtobit ivtobit_footnote ivtobit_p jackknife jacknife javacall jhgeo_logit_ll jhpoi_logit_ll jknife jknife_6 jknife_8 jkstat joinby kalarma1 kap kap_3 kapmeier kappa kapwgt kdens kdens2 kdensity kdensity_7 keep ksm ksmirnov ktau kwallis l la lab labbe labcd labcopy labdel labdtch labe label labelbook labgen lablog labmap labmask labnoeq labreplace labvalch labvalclone labvalcombine labvarch ladder leastlikely levels levelsof leverage lfit lfit_p li lincom line linktest lis list listcoef listtex listwise lloghet_glf lloghet_glf_sh lloghet_gp lloghet_ilf lloghet_ilf_sh lloghet_ip llogi_sw llogis_p llogist llogistic llogistichet lnorm_lf lnorm_sw lnorma_p lnormal lnormalhet lnormhet_glf lnormhet_glf_sh lnormhet_gp lnormhet_ilf lnormhet_ilf_sh lnormhet_ip lnskew0 loadingplot loc loca local locreg log log2html log2html7 logi logis_lf logistic logistic_p logit logit_10 logit_estat logit_p loglogs lognormalreg_lf logout logrank loneway lookfor lookup lowess lowess_7 lpoly lpredict lrecomp lroc lroc_7 lrtest ls lsens lsens_7 lsens_x lstat ltable ltable_7 ltable_9 ltriang lv lvr2plot lvr2plot_7 m ma mac macr macro makecns man mano manov manova manova_estat manova_p manovatest mantel margeff margeff8 margin margins marginsplot mark markin markout marksample mat mat_capp mat_order mat_put_rr mat_rapp mata mata_clear mata_describe mata_drop mata_matdescribe mata_matsave mata_matuse mata_memory mata_mlib mata_mosave mata_rename mata_which matalabel matcproc matlist matlist_10 matname matr matri matrix matrix_input__dlg matstrik matwrite mca mca_estat mca_lookup mca_p mca_parse_normalize mcaplot mcaprojection mcc mcci md0_ md1_ md1debug_ md2_ md2debug_ mdesc mds mds_classical mds_dataheader mds_display mds_display_classical mds_display_modern mds_estat mds_euclidean mds_id2string mds_modern mds_p mds_parse_cdopts mds_parse_method mds_parse_normalize mds_parse_s2d mds_s2d mdsconfig mdslong mdsmat mdsshepard mdytoe mdytof me_derd mean means mecloglog mecloglog_estat mecloglog_p median meglm meglm_estat meglm_p melogit melogit_estat melogit_p memory menbreg menbreg_estat menbreg_p meologit meologit_estat meologit_p meoprobit meoprobit_estat meoprobit_p mepoisson mepoisson_estat mepoisson_p meprobit meprobit_estat meprobit_p meqparse meqrlogit meqrlogit_estat meqrlogit_p meqrpoisson meqrpoisson_estat meqrpoisson_p mer merg merge merge_10 merge_wrk_dlg metan metan_examples mfp mfp_10 mfx mgarch mgarch_ccc mgarch_ccc_p mgarch_dcc mgarch_dcc_p mgarch_dvech mgarch_dvech_p mgarch_vcc mgarch_vcc_p mhelp mhodds mi mi_cmd_add mi_cmd_append mi_cmd_convert mi_cmd_copy mi_cmd_describe mi_cmd_erase mi_cmd_estimate mi_cmd_expand mi_cmd_export mi_cmd_extract mi_cmd_genericset mi_cmd_import mi_cmd_impute mi_cmd_merge mi_cmd_misstable mi_cmd_passive mi_cmd_predict mi_cmd_predictnl mi_cmd_ptrace mi_cmd_query mi_cmd_register mi_cmd_rename mi_cmd_replace0 mi_cmd_reset mi_cmd_reshape mi_cmd_select mi_cmd_set mi_cmd_stjoin mi_cmd_stsplit mi_cmd_svyset mi_cmd_test mi_cmd_testtransform mi_cmd_unregister mi_cmd_unset mi_cmd_update mi_cmd_varying mi_cmd_xeq mi_sub_expand_flongsep mi_sub_replace0_flongsep mi_sub_reshape mi_sub_stjoin_flongsep mi_sub_stsplit_flongsep mi_sub_xeq_all mif2dta minbound misstable mixed mixed_estat mixed_ll mixed_ll_reparm mixed_p mkassert mkdir mkest mkmat mkspline ml ml_5 ml_adjs ml_bhhhs ml_c_d ml_check ml_clear ml_cnt ml_count_eval ml_debug ml_defd ml_dots ml_e0 ml_e0_bfgs ml_e0_cycle ml_e0_dfp ml_e0i ml_e1 ml_e1_bfgs ml_e1_bhhh ml_e1_cycle ml_e1_dfp ml_e2 ml_e2_cycle ml_ebfg0 ml_ebfr0 ml_ebfr1 ml_ebh0q ml_ebhh0 ml_ebhr0 ml_ebr0i ml_ecr0i ml_edfp0 ml_edfr0 ml_edfr1 ml_edr0i ml_eds ml_eer0i ml_egr0i ml_elf ml_elf_bfgs ml_elf_bhhh ml_elf_cycle ml_elf_dfp ml_elfi ml_elfs ml_enr0i ml_enrr0 ml_erdu0 ml_erdu0_bfgs ml_erdu0_bhhh ml_erdu0_bhhhq ml_erdu0_cycle ml_erdu0_dfp ml_erdu0_nrbfgs ml_exde ml_footnote ml_geqnr ml_grad0 ml_graph ml_hbhhh ml_hd0 ml_hold ml_init ml_inv ml_log ml_max ml_mlout ml_mlout_8 ml_model ml_nb0 ml_opt ml_p ml_p_allowmissscores ml_plot ml_query ml_rdgrd ml_repor ml_s_e ml_score ml_searc ml_showh ml_technique ml_unhold mleval mlexp mlexp_estat mlexp_p mlf_ mlmatbysum mlmatsum mlog mlogi mlogit mlogit_10 mlogit_footnote mlogit_p mlogit_p_10 mlopts mlsum mlvecsum mmerge mnl0_ mopt mopt_check_program mopt_post mopt_quietly mopt_trace mor more mov move mprobit mprobit_lf mprobit_p mprobit_p_11 mrdu0_ mrdu1_ mvdecode mvencode mvreg mvreg_estat mvtest mvtest_chi2test mvtest_corr mvtest_cov mvtest_dups mvtest_ftest mvtest_manotab mvtest_mean mvtest_norm mvtest_samples n nbreg nbreg_al nbreg_lf nbreg_p nbreg_sw nestreg net netplot newey newey_7 newey_estat newey_p news nl nl_7 nl_9 nl_9_p nl_p nl_p_7 nlcom nlcom_p nlexp2 nlexp2_7 nlexp2a nlexp2a_7 nlexp3 nlexp3_7 nlgom3 nlgom3_7 nlgom4 nlgom4_7 nlinit nllog3 nllog3_7 nllog4 nllog4_7 nlog_rd nlogit nlogit_estat nlogit_lf nlogit_p nlogitgen nlogittree nlpred nlsur nlsur_estat nlsur_p nnmatch no nobreak noi nois noisi noisil noisily normalreg_lf note notes notes_dlg novarabbrev nplate nptrend ntimeofday numlabel numlist odbc old_ver olo olog ologi ologi_sw ologit ologit_10 ologit_p ologitp on one onew onewa oneway op_colnm op_comp op_diff op_inv op_str opr opro oprob oprob_sw oprobi oprobi_p oprobit oprobit_10 oprobitp opts_exclusive order orthog orthpoly ou out outf outfi outfil outfile outputst outputstold outreg outreg2 outreg2_prf outs outsh outshe outshee outsheet ovtest pac pac_7 palette panels parmby parmcip parmest parse parse_dissim pause pca pca_8 pca_display pca_estat pca_p pca_rotate pcamat pchart pchart_7 pchi pchi_7 pcorr pctile pentium pergram pergram_7 permute permute_8 personal peto_st pgmhaz8 pgmhaz8_ll pgmhazgf2 pkcollapse pkcross pkequiv pkexamine pkexamine_7 pkshape pksumm pksumm_7 pl plo plot plreg plugin pnorm pnorm_7 poisgof poiss_lf poiss_sw poisso_p poisson poisson_estat poparms poparms_p poprisktime post postclose postfile postrtoe postutil pov_robust power power_anova_dim power_cmd_onecorr power_cmd_onecorr_parse power_cmd_onemean power_cmd_onemean_parse power_cmd_oneprop power_cmd_oneprop_parse power_cmd_onevar power_cmd_onevar_parse power_cmd_oneway power_cmd_oneway_parse power_cmd_pairedm power_cmd_pairedm_parse power_cmd_pairedpr power_cmd_pairedpr_parse power_cmd_repeated power_cmd_repeated_parse power_cmd_twocorr power_cmd_twocorr_parse power_cmd_twomeans power_cmd_twomeans_parse power_cmd_twoprop power_cmd_twoprop_parse power_cmd_twovar power_cmd_twovar_parse power_cmd_twoway power_cmd_twoway_parse powercal pperron pr praccum prais prais_e prais_e2 prais_p prchange prcounts prdc predict predictnl predlog preserve prgen prgen1 print pro prob probi probit probit_10 probit_estat probit_p probitiv proc_time procoverlay procrustes procrustes_estat procrustes_p profiler prog progr progra program projmanager prop proportion prtab prtest prtesti prvalue prvalue1 prwhich pscore psdensity psgraph psmatch2 pstest putexcel putexcel_cellexp_error putmata pwcompare pwcorr pwd pwmean qby qbys qchi qchi_7 qladder qladder_7 qll qnorm qnorm_7 qqplot qqplot_7 qreg qreg_c qreg_p qreg_sw qu quadchk quantile quantile_7 que quer query qui quie quiet quietl quietly range ranksum ratio rbounds rchart rchart_7 rcof rcsgen rcsgen_example rdbinselect rdbwselect rddqte rdrobust recast reclink recode reg reg3 reg3_10 reg3_p regdw regr regre regre_p2 regres regres_p regress regress_estat regriv_p remap remcor ren rena renam rename renpfix repeat replace reshape reshape_10 restore ret retu retur return rm rmdir robvar roccomp roccomp_7 roccomp_8 rocf_lf rocfit rocfit_8 rocgold rocplot rocplot_7 rocreg rocreg_estat rocreg_lf2 rocreg_p rocregplot rocregstat roctab roctab_7 rolling rologit rologit_p rot rota rotat rotate rotatemat rqdeco rqdeco3 rreg rreg_p rts ru run runtest rvfplot rvfplot_7 rvpplot rvpplot_7 sa safesum sample sampsi sasexe saswrapper sav savasas save savedresults saveold sc sca scal scala scalar scatter scm_mine sco scob_lf scob_p scobi_sw scobit scobit_footnote scor score scoreplot scoreplot_help scree screeplot screeplot_help sdr sdtest sdtesti se se2plot search sedecomposition seeout sem sem_check_data sem_display sem_epilog sem_estat sem_estat_eqgof sem_estat_eqtest sem_estat_framework sem_estat_ggof sem_estat_ginvariant sem_estat_gof sem_estat_mindices sem_estat_residuals sem_estat_scoretests sem_estat_stable sem_estat_stdize sem_estat_summ sem_estat_teffects sem_groupheader sem_mvsort sem_p sem_parse_display sem_parse_method sem_parse_pclass sem_parse_spec sem_util sembuilder sencode separate seperate serrbar serrbar_7 serset set set_defaults setx sfrancia sg__variables_vlist sh she shel shell shellout shewhart shewhart_7 shortdir shp2dta sigdif signestimationsample signrank signtest simqi simul simul_7 simulate simulate_8 sjlatex sjlog sjlog_7 sktest sleep slogit slogit_d2 slogit_footnote slogit_p smooth snapshot snapspan so sor sort spearman spell2panel spellmerge spellsplit spex spikeplot spikeplot_7 spikeplt spline_x split spmap spmap_arrow spmap_color spmap_diagram spmap_examples spmap_label spmap_line spmap_point spmap_polygon spmap_psl spmap_scalebar spostupdate sqreg sqreg_p sret sretu sretur sreturn srr ssc ssc_whatshot ssd ssd_build sspace sspace_estat sspace_p st st_ct st_hc st_hcd st_hcd_sh st_is st_issys st_note st_promo st_set st_show st_smpl st_subid stack statsby statsby_8 statsmat stbase stci stci_7 stcmd stcox stcox_estat stcox_footnote stcox_fr stcox_fr_ll stcox_p stcox_sw stcoxkm stcoxkm_7 stcoxkm_9 stcrr stcrr_lf stcrre stcrreg stcrreg_p stcstat stcstat2 stcurv stcurve stcurve_7 stdes stdescribe stem stepwise stereg stfill stgen stimeofday stir stjoin stmc stmh storedresults stphplot stphplot_7 stphplot_9 stphtest stphtest_7 stpm2 stpm2_ml_hazard stpm2_ml_hazard_rs stpm2_ml_lf_hazard stpm2_ml_lf_hazard_rs stpm2_ml_lf_log stpm2_ml_lf_normal_rs stpm2_ml_lf_theta stpm2_ml_lf_theta_rs stpm2_ml_normal stpm2_ml_odds stpm2_ml_odds_rs stpm2_mttf stpm2_pred stpm2cm stpm2trt stpmean stpow stpowe stpower stptime strate strate_7 streg streg_p streg_sw streghet_footnote streset strl strlread strlwrite sts sts_7 sts_9 stset stsplit stsum stsurvimpute sttocc sttoct studenttreg_lf stvary stweib su suest suest_8 sum summ summa summar summari summariz summarize sumqi sunflower sureg surface survcurv survsum svar svar_p svmat svmat2 svmatsv svy svy_disp svy_dreg svy_est svy_est_7 svy_estat svy_get svy_head svy_header svy_sub svy_sub_7 svy_x svy_x_7 svy_x_p svydes svydes_8 svydescribe svygen svygnbreg svyheckman svyheckprob svyintreg svyintreg_7 svyintrg svyivreg svylc svylog_p svylogit svymarkout svymarkout_8 svymean svymlog svymlogit svynbreg svyolog svyologit svyoprob svyoprobit svyopts svypois svypois_7 svypoisson svyprobit svyprobt svyprop svyprop_7 svyratio svyreg svyreg_p svyregress svyset svyset_7 svyset_8 svytab svytab_7 svytabform svytest svytotal sw sw_8 swcnreg swcox swereg swilk swlogis swlogit swologit swoprbt swpois swprobit swqreg swtobit swweib symmetry symmi symplot symplot_7 syntax synth synth_ll sysdescribe sysdir sysuse szroeter ta tab tab1 tab2 tab_or tabchi tabchii tabd tabdi tabdis tabdisp tabform tabi tabl table tablecol tabm tabodds tabodds_7 tabout tabplot tabplot6 tabsort tabsort6 tabsplit tabsplit6 tabstat tabstatout tabu tabul tabula tabulat tabulate te teffects teffects_estat teffects_p tempfile tempname tempvar tes test test_syntax_wrk_dlg testnl testparm teststd tetrachoric time_it timer tis tlogit tmpdir tnbreg tnbreg_cons tnbreg_mean tnbreg_p tob tobi tobit tobit_p tobit_sw tobitiv token tokeni tokeniz tokenize tostring total tpm tpm_p tpm_svy_check tpoiss_d2 tpoisson tpoisson_p tpredict_p2 translate translator transmap trauma treat_ll treatr_p treatreg treatreg_fix_stripe treatreg_footnote treatreg_restore_stripe treatrew trim triss trnb_cons trnb_mean trpoiss_d2 trunc_ll truncr_p truncreg tsappend tset tsfill tsfilter tsline tsline_ex tsreport tsreport_12 tsrevar tsrline tsset tssmooth tsunab ttest ttesti tut_chk tut_wait tutorial tw tware_st two twoway twoway__contour_gen twoway__fpfit_serset twoway__function_gen twoway__histogram_gen twoway__ipoint_serset twoway__ipoints_serset twoway__kdensity_gen twoway__lfit_serset twoway__normgen_gen twoway__patch_serset twoway__pci_serset twoway__qfit_serset twoway__scatteri_serset twoway__sunflower_gen twoway_ksm_serset ty typ type typeof u u_mi_assert_set u_mi_certify_data u_mi_check_monotone u_mi_check_setvars u_mi_curtime u_mi_dots u_mi_estimate u_mi_estimate_check_using u_mi_estimate_chk_commonopts u_mi_estimate_chk_eform u_mi_estimate_display u_mi_estimate_get_commonopts u_mi_estimate_table_header u_mi_estimate_using u_mi_fixchars u_mi_get_flongsep_tmpname u_mi_get_maxopts u_mi_getstubname u_mi_getwidevars u_mi_how_set u_mi_imexport_fix_pre_suf u_mi_impute u_mi_impute_augreg u_mi_impute_chained_labelvars u_mi_impute_check_condexp u_mi_impute_check_ivars u_mi_impute_check_method u_mi_impute_cmd_chained u_mi_impute_cmd_chained_init u_mi_impute_cmd_chained_parse u_mi_impute_cmd_intreg_parse u_mi_impute_cmd_logit_parse u_mi_impute_cmd_mlogit_parse u_mi_impute_cmd_monotone u_mi_impute_cmd_monotone_init u_mi_impute_cmd_monotone_parse u_mi_impute_cmd_mvn u_mi_impute_cmd_mvn_init u_mi_impute_cmd_mvn_parse u_mi_impute_cmd_nbreg_parse u_mi_impute_cmd_ologit_parse u_mi_impute_cmd_pmm_parse u_mi_impute_cmd_poisson_parse u_mi_impute_cmd_regress_parse u_mi_impute_cmd_truncreg_parse u_mi_impute_cmd_uvmethod u_mi_impute_cmd_uvmethod_init u_mi_impute_cmd_uvmethod_parse u_mi_impute_diexpheader u_mi_impute_difvheader u_mi_impute_fv2var u_mi_impute_genexpr u_mi_impute_get_cmdopts u_mi_impute_init_em u_mi_impute_initmat u_mi_impute_note_nomiss u_mi_impute_parse_exp u_mi_impute_parse_exp_ivars u_mi_impute_replace_expr u_mi_impute_replace_expvars u_mi_impute_sequential_parse u_mi_impute_table_legend u_mi_impute_xeq u_mi_impute_xeq_flong u_mi_impute_xeq_flongsep u_mi_impute_xeq_mlong u_mi_impute_xeq_wide u_mi_ivars_musthave_missing u_mi_make_chars_equal u_mi_map_style u_mi_mustbe_registered_imputed u_mi_no_sys_vars u_mi_no_wide_vars u_mi_not_mi_set u_mi_postbv u_mi_predictions u_mi_prefix_title u_mi_recast_ivars u_mi_save u_mi_sets_okay u_mi_sortback u_mi_tests u_mi_time_diff u_mi_token_mustbe u_mi_trcoef_legend u_mi_use u_mi_xeq_on_tmp_flongsep u_mi_zap_chars ucm ucm_estat ucm_p unab unabbrev unabcmd univstat unzipfile update us use use_option_wrk_dlg uselabel usesas usesasdel var var_mkcompanion var_p varabbrev varbasic varfcast vargranger varirf varirf_add varirf_cgraph varirf_create varirf_ctable varirf_describe varirf_dir varirf_drop varirf_erase varirf_graph varirf_ograph varirf_rename varirf_set varirf_table varlab varlmar varm varma varman varmana varmanag varmanage varnorm varsoc varstable varstable_w varstable_w2 varwle vce vec vec_fevd vec_mkphi vec_p vec_p_w vecirf_create veclmar veclmar_w vecnorm vecnorm_w vecrank vecstable verinst vers versi versio version view viewsource vif vwls vwls_p wdatetof webdescribe webgetsem webseek webuse weib1_lf weib2_lf weib_lf weib_lf0 weibhet_glf weibhet_glf_sh weibhet_glfa weibhet_glfa_sh weibhet_gp weibhet_ilf weibhet_ilf_sh weibhet_ilfa weibhet_ilfa_sh weibhet_ip weibu_sw weibul_p weibull weibull_c weibull_s weibullhet wh whelp whi which whil while wilc_st wilcoxon win wind windo window winexec winsor wntestb wntestb_7 wntestq xchart xchart_7 xcollapse xcorr xcorr_7 xi xi_6 xmerge xmerged xml_tab xmlogplot xmlogview xmlsav xmlsave xmluse xpose xpost xprchange xsh xshe xshel xshell xt_iis xt_tis xtab xtab2_p xtab_p xtabond xtabond2 xtbin_p xtclog xtcloglog xtcloglog_8 xtcloglog_d2 xtcloglog_pa_p xtcloglog_re_p xtcnt_p xtcorr xtdata xtdes xtdescribe xtdpd xtdpd_estat xtdpd_p xtdpdsys xtfront_p xtfrontier xtgee xtgee_elink xtgee_estat xtgee_makeivar xtgee_p xtgee_plink xtgee_robust_epilog xtgee_robust_prolog xtgls xtgls_p xtgraph xthaus xthausman xtht_p xthtaylor xtile xtint_p xtintreg xtintreg_8 xtintreg_d2 xtintreg_p xtivp_1 xtivp_2 xtivreg xtline xtline_ex xtlogit xtlogit_11 xtlogit_8 xtlogit_d2 xtlogit_fe_p xtlogit_pa_p xtlogit_re_p xtmelogit xtmelogit_estat xtmelogit_p xtmepoisson xtmepoisson_estat xtmepoisson_p xtmixed xtmixed_estat xtmixed_p xtmrho xtnb_fe xtnb_lf xtnbreg xtnbreg_pa_p xtnbreg_refe_p xtologit xtoprobit xtordinal_p xtpcse xtpcse_p xtpois xtpoisson xtpoisson_d2 xtpoisson_pa_p xtpoisson_refe_p xtpqml xtpred xtprobit xtprobit_8 xtprobit_d2 xtprobit_re_p xtps_fe xtps_lf xtps_ren xtps_ren_8 xtrar_p xtrc xtrc_p xtrchh xtrefe_p xtreg xtreg_be xtreg_fe xtreg_ml xtreg_pa_p xtreg_re xtregar xtrere_p xtset xtsf_ll xtsf_llti xtsum xttab xttest0 xttobit xttobit_8 xttobit_p xttrans xtunitroot yx yxview__barlike_draw yxview_area_draw yxview_bar_draw yxview_contour_draw yxview_contourline_draw yxview_dot_draw yxview_dropline_draw yxview_function_draw yxview_iarrow_draw yxview_ilabels_draw yxview_normal_draw yxview_patch_draw yxview_pcarrow_draw yxview_pcbarrow_draw yxview_pccapsym_draw yxview_pcscatter_draw yxview_pcspike_draw yxview_rarea_draw yxview_rbar_draw yxview_rbarm_draw yxview_rcap_draw yxview_rcapsym_draw yxview_rconnected_draw yxview_rline_draw yxview_rscatter_draw yxview_rspike_draw yxview_spike_draw zap_s zinb zinb_llf zinb_plf zip zip_llf zip_p zip_plf zipfile zt_ct_5 zt_hc_5 zt_hcd_5 zt_is_5 zt_iss_5 zt_sho_5 zt_smp_5 ztbase_5 ztcox_5 ztdes_5 ztereg_5 ztfill_5 ztgen_5 ztir_5 ztjoin_5 ztnb ztnb_p ztp ztp_p zts_5 ztset_5 ztspli_5 ztsum_5 zttoct_5 ztvary_5 ztweib_5</Keywords>
+            <Keywords name="Keywords4">_a_cls_msg _addgph _applycoding _arma_getb _arma_grcroots _asprobit_diparm _asprobit_estimator _asprobit_replay _asprobit_vce_parserun _assert _assert_mreldif _assert_mreldifp _assert_mreldifs _assert_obs _assert_streq _at _b_fill0 _b_post0 _bigtab _binomial2bernoulli _binperfect _binperfout _biplotmat _biplotmat_10 _brr_sum _bs_check _bs_display _bs_sum _btcmd _byoptnotallowed _ca_process_mlabel _callerr _canon _cassert _cci _check4gropts _check_e_margins _check_e_rc _check_eformopt _check_numeric_vtype _check_omit _check_ts_gaps _checkpd _ckirfset _cknotsvaroi _ckvec _clsarr2list _cmdxel _coef_table _coef_table_header _confirm_date _confirm_number_or_date _copy_mat_stripes _cpmatnm _crc2use _crc4fld _crcacnt _crcar1 _crcause _crcbin _crcbygr _crcchi2 _crcchkw _crccip _crceprs _crcgldv _crcglil _crcird _crcirr _crcmeq _crcnuse _crcor _crcphdr _crcra _crcrd _crcrr _crcseq _crcshdr _crcslbl _crcsrvc _crcswxx _crcunab _crcunit _crcvarl _crcwsrv _crczsku _cvar _datasig _datasign _datasigna _datasignat _datasignatu _datasignatur _datasignature _date2elapsed _diag2mat _diparm _diparm_8 _dm_create _dots _dvech_estat _dvech_falast _e2r _egennoby _epitab_by_parse _ereturn_display _esize_calculations _est _estat_acplot _estat_aroots _estat_aroots_w2 _estat_icc _esti _estim _estima _estimat _estimate _estimates _eststo _evlist _exactreg_coef _exactreg_lf _exactreg_p _exactreg_replay _exactreg_replayse _exactreg_sort _exactreg_tests _exp_list_expand _exp_list_parse _favor_parse _find_tsops _findhlpalias _float2binary _fr_area_parse_and_log _fr_aspect_parse_and_log _fr_clegend_parse_and_log _fr_declare_date_line _fr_draw_rect _fr_droplines_draw _fr_erasearr _fr_legend_parse_and_log _fr_merged_implicit _fr_runlog _fr_sztextbox_parse_and_log _fr_tbstyle_parse_and_log _fr_tedits_parse_and_log _fr_textbox_parse_and_log _fr_title_parse_and_log _fr_x_log_cleanup _fr_x_log_create _fr_zyx2legend_parse_and_log _fracpp _fracxo _frr_sztextbox_pnl _ftabstat2 _fv_check_depvar _gadjl _gadju _gany _ganycount _ganymatch _ganyvalue _gaxis _gbase _gbom _gbomd _gclsst _gconcat _gconcat12 _gcorr _gcount _gcov _gcut _gdayofyear _gdecimal _gdensity _gdhms _gdiff _gdissim _gegroup _gelap _gelap2 _gends _gentropy _geom _geomd _geqany _get_diopts _get_diparmopts _get_diparmopts_8 _get_eformopts _get_eqspec _get_gropts _get_hmat _get_irf _get_mcompare _get_offopt _getbv _getcovcorr _getfilename _getmlogitcoef _getnewlabelname _getrhs _getvarcns _getxel _getxel2 _gewma _gfgt _gfill _gfilter _gfirst _gfoy _ggini _ggmean _ggroup _ggroup2 _ghalf _ghmean _ghmm _ghmmss _ghms _gifirst _gilast _gincss _ginequal _giqr _giso3166 _gkakwani _gkurt _glastnm _glgroup _gm_dlg_edits _gm_edit _gm_log _gm_logadd_in _gm_splitlog _gma _gmad _gmax _gmdev _gmean _gmedian _gmehran _gmin _gminutes _gmixnorm _gmlabvpos _gmld _gmode _gmode10 _gmsub _gmtr _gncyear _gneqany _gnmiss _gnoccur _gnss _gntos _gnvals _gnwords _goutside _gpc _gpctile _gpiesch _gr_applytrans _gr_arrowhead _gr_atomize_styles _gr_common_axes _gr_drawrect _gr_linkstyles _gr_symbol_of _grall _grank _grany _grcount _grecord _grepeat _grfirst _gridit _grlast _grmax _grmd _grmean _grmin _grmiss _grndint _grndsub _grobs _growfirst _growlast _growmax _growmean _growmedian _growmin _growmiss _grownonmiss _growpctile _growsd _growtotal _grsd _grsum _grsum2 _gs_addgrname _gs_by_combine _gs_bygraph _gs_byopts_combine _gs_clean_graphlist _gs_default_bands _gs_islivefile _gs_parse_and_log_axoptions _gs_parse_and_log_axtitle _gs_parse_and_log_lines _gs_parse_and_log_tickset _gs_path2memname _gs_rdfilehdr _gs_rec_rdfilehdr _gs_rec_wrfilehdr _gs_rtmostofclass _gs_wrfilehdr _gs_x_create _gsd _gsdl _gseconds _gsemean _gseq _gsieve _gskew _gstd _gston _gsum _gsumoth _gtag _gtheil _gtod _gtotal _gtotal0 _gvar _gwordof _gwpctile _gwtfreq _gxtile _hadamard_verify _hw_comp _hw_opt_d0 _hwsa_comp _hwsa_opt_d0 _hwsm_comp _hwsm_opt_d0 _irf_ops _isfit _iv_parse _ivpoisson_add _ivpoisson_cmult _ivpoisson_mult _ivreg_project _jk_nlegend _jk_pseudo _jk_sum _kdens _labels2eqnames _labels2names _linemax _loop_brr _loop_bs _loop_jknife _loop_jknife2 _loop_jknife_fw _loop_jknife_iw _loop_rw _lrtest7 _m2matrix _m2scalar _marg_compute _marg_dydx_ccompute _marg_dydx_ccompute_cr _marg_dydx_dcompute _marg_report _marg_repost _marg_save _massert _mat_clean_coleq _mat_fill0 _mat_mult_arma _matplot _matrix_cmds _matrix_table _matsort _max_to_opt _mdisplay _me_chk_opts _me_der _me_der2 _me_derb _me_derd _me_display _me_estimate _me_l_der _me_l_der2 _mfrmvec _mgarch_ccc_estat _mgarch_dcc_estat _mgarch_dvech_estat _mgarch_p_names _mgarch_util _mgarch_vcc_estat _mixed_fixupconstant _mixed_parsecmd _mixed_parseifin _mixed_rmcollevel _mixed_setsublevels _mixed_wcorr _mka2 _mkcross _mkg _mkkmn _mksigma _mkvec _ms_at_parse _ms_balance _ms_build_info _ms_display _ms_dydx_parse _ms_element_info _ms_empty_info _ms_eq_display _ms_eq_info _ms_extract_varlist _ms_findomitted _ms_omit_info _ms_op_info _ms_parse_parts _ms_put_omit _ms_split _ms_to_vl _ms_unab _mtest _multiplemat_tab _mvec _mvtsheadr _natscale _nlogit _nlogit_p _no_estat _no_predict _nobinary _nobs _nostrl _on_colon_parse _parmlist _parse _parse_covmat _parse_initial _parse_optexp _parse_optimize_options _parse_sexp _parse_sexp_deriv _parse_terms _parsememsize _parsewt _path_noopts _pctile _peabbv _pebase _pecats _peciboot _pecidelta _peciml _pecmdcheck _pecollect _pedum _peife _pemarg _penocon _pepred _perhs _pesum _petrap _peunvec _pexstring _pk_p _plotpos _post_vce_rank _pred_me _pred_missings _pred_rules _pred_se _predict _prefix_buildinfo _prefix_check4esample _prefix_checkopt _prefix_clear _prefix_command _prefix_depvarblocklist _prefix_display _prefix_expand _prefix_explist _prefix_footnote _prefix_fvlabel _prefix_getchars _prefix_getmat _prefix_legend _prefix_model_test _prefix_nonoption _prefix_note _prefix_reject _prefix_relabel_eqns _prefix_replay _prefix_run_error _prefix_saving _prefix_title _prefix_validate _prefix_varblocklist _prefix_vcenotallowed _pss_chk_fpc _pss_chk_init _pss_chk_iteropts _pss_chk_matrix _pss_chk_matspec _pss_chk_multilist _pss_chk_multisample _pss_chk_tableopts _pss_chk_testmainopts _pss_error _pss_graph _pss_pairedpr_parseeffect _pss_syntax _pss_twoprop_parseeffect _qreg _qregwls _qsort_index _qsur _r2e _recast _rename _repost _resample_warn _restore_labels _return _returnclear _rmcoll _rmcoll2list _rmcollright _rmcollright_10 _rmdcoll _rob_genid _rob_genw _robust _robust2 _robust3 _roccom1 _roccom1_8 _rocsen _rotate_clear _rotate_text _sassert _savingopt_parse _score_spec _sdr_sum _sep_varsylags _set_irf_vars _shortenpath _sigfm _small2dotz _spreservetest _sspace_covstructure_parse _sspace_epost _sspace_equation_order _sspace_estat _sspace_p _st_err_sharedgaps _stata_internalerror _stcurv _stpower _stpower_gethr _stpower_gethr_log _stpower_getrate _strip_labels _sttrend _stubstar2names _sum_table _sumaccum _sunflower_binar _svar_cnsmac _svar_eqmac _svar_newcns _svar_post _svard2 _svariden _svaridenlr _svarlrd2 _svd _svy2 _svy_bs _svy_bs_sum _svy_check_cmdopts _svy_check_group _svy_check_postw _svy_check_stset _svy_check_vce _svy_fpc_note _svy_ftest _svy_gof_hl _svy_ivreg_first _svy_mkdeff _svy_mkmeff _svy_mkvmsp _svy_mkvsrs _svy_newrule _svy_setup _svy_singleton_note _svy_subpop _svy_subpop_note _svy_summarize _svy_summarize_legend _svy_tabulate _svy_tpm_display _svydes_dlg _svylc _svyset _sw_ood _teffects_aipw _teffects_count_obs _teffects_error_msg _teffects_from _teffects_getstat1 _teffects_gmm_aipw _teffects_gmm_ipw _teffects_gmm_ipw_hetprobit _teffects_gmm_ipw_mlogit _teffects_gmm_ipwra _teffects_gmm_ra _teffects_gmmopts _teffects_ipw _teffects_ipw_gmm _teffects_ipw_init _teffects_ipw_p _teffects_ipwra _teffects_ipwra_bv _teffects_ipwra_gmm _teffects_ipwra_p _teffects_label2value _teffects_match_p _teffects_nnmatch _teffects_omit_vars _teffects_options _teffects_overlap _teffects_parse_canonicalize _teffects_parse_dvarlist _teffects_parse_generate _teffects_parse_tvar _teffects_parse_tvarlist _teffects_psmatch _teffects_ra _teffects_ra_gmm _teffects_ra_init _teffects_ra_p _teffects_replay _teffects_replaym _teffects_validate_catvar _teffects_validate_overlap _teffects_vlist_exclusive _teffects_vlist_exclusive2 _ts _ts_dexp _ts_exp _ts_hw _ts_hwsa _ts_hwsm _tsheadr _tsinchk _tsma _tsnatscale _ttest _ttest1 _ttest2 _tutends _tvc_notallowed _var_mka _varbsf _vardisprmse _varfcast _varfcast_clear _varfcast_fcast _varfcast_graph _varirf _varsim _vassert _vce_cluster _vce_parse _vce_parserun _vec_ckgraph _vec_dreduced _vec_grcroots _vec_opck _vec_pgparse _vec_pgridplots _vec_postvar _vecauxdisp _vecfcast_compute _vecfcast_compute_w _vecgetacns _vecgetcv _vecgtn _vecmka _vecmkapvp _vecmkce _vecmkgam _vecmksi _vecmktrend _vecortho _vecpclean _vectparse _vecu _view_helper _virf_add _virf_char _virf_fck _virf_mknewfile _virf_nlen _virf_use _writenum _xeq_esthold _xeq_esthold_err _xt _xt_check_cns _xt_robust _xtab_parser _xtabond9 _xtdpd_xtfod _xtme_display _xtme_estat _xtme_estimate _xtme_p _xtmixed_display _xtmixed_estimate _xtordinal _xtordinal_display _xtreg_chk_cl _xtreg_chk_cl2 _xtstrbal _xtur_getic _xtur_parse_kernel _xtur_parse_lags _xturadfreg _xturbreitung _xturdemean _xturfisher _xturhadri _xturht _xturips _xturllc</Keywords>
+            <Keywords name="Keywords5">_eststo _ftabstat2 _gadjl _gadju _gaxis _gbase _gbom _gbomd _gclsst _gcorr _gcov _gdayofyear _gdecimal _gdensity _gdhms _gdissim _gegroup _gelap _gelap2 _gentropy _geom _geomd _gewma _gfgt _gfilter _gfirst _gfoy _ggini _ggmean _ggroup2 _ghalf _ghmean _ghmm _ghmmss _ghms _gifirst _gilast _gincss _ginequal _giso3166 _gkakwani _glastnm _glgroup _gmehran _gminutes _gmixnorm _gmlabvpos _gmld _gmsub _gncyear _gnmiss _gnoccur _gnss _gntos _gnvals _gnwords _goutside _gpiesch _grall _grany _grcount _grecord _grepeat _gridit _grmd _grndint _grndsub _growmedian _grsum2 _gsdl _gseconds _gsemean _gsieve _gston _gsumoth _gtheil _gtod _gtotal0 _gvar _gwordof _gwpctile _gwtfreq _gxtile _kdens _peabbv _pebase _pecats _peciboot _pecidelta _peciml _pecmdcheck _pecollect _pedum _peife _pemarg _penocon _pepred _perhs _pesum _petrap _peunvec _pexstring _prefix_display _svy_tpm_display adept adept_function adept_gender adept_gender_tables adept_labor adept_labor_tables adept_poverty adept_poverty_tables adept_sp adept_sp_tables adept_work adoedit ais_tmpm altcharl apcfit apcspline apcspline_p aps areg2 ascot asprvalue attk attnd attnw attr atts bfit brant bspline caplog case2alt catplot catplot_old cdeco cdeco_jmp cem center chitest chitest6 chitesti chitesti6 cmp cmp_clear cmp_d1 cmp_lf cmp_lf1 cmp_p collin confirmdir contour counterfactual countfit daclass daoneway descsave did2 discrim do2htm dsconcat dunnett eclplot elixhaus enumopt estadd estout estpost estsimp eststo esttab extract_rmst extremes factext fastgini fedit figout film fitstat flexcurv fmm fmm_gamma_lf fmm_gamma_p fmm_lognormal_lf fmm_lognormal_p fmm_negbin1_lf fmm_negbin1_p fmm_negbin2_lf fmm_negbin2_p fmm_normal_lf fmm_normal_p fmm_poisson_lf fmm_poisson_p fmm_studentt_lf fmm_studentt_p fmmlc folders frencurv frmttable fs ftabstat2 gammareg_lf getcmds ghk2version gicurve gidecomposition glim_mypois gllam_ll gllamm gllapred gllarob gllas_yu gllasim grc1leg grmean grss hglogit hplogit hshaz hshaz_ll icd9 icd9_ff icd9p icd9tmpm icdpic iciss imb inputst itreatreg ivqte jhgeo_logit_ll jhpoi_logit_ll kdens kdens2 labbe labcd labcopy labdel labdtch labgen lablog labmap labmask labnoeq labreplace labvalch labvalclone labvalcombine labvarch leastlikely listcoef listtex listwise locreg log2html log2html7 lognormalreg_lf logout margeff margeff8 matwrite mdesc metan metan_examples mif2dta mkest mmerge netplot nnmatch normalreg_lf nplate ntimeofday outputst outputstold outreg outreg2 outreg2_prf panels parmby parmcip parmest pgmhaz8 pgmhaz8_ll pgmhazgf2 plreg poparms poparms_p poprisktime pov_robust powercal praccum prchange prcounts prdc predlog prgen prgen1 probitiv prtab prvalue prvalue1 prwhich pscore psgraph psmatch2 pstest qll rbounds rcsgen rcsgen_example rdbinselect rdbwselect rddqte rdrobust reclink remcor rqdeco rqdeco3 rts sasexe saswrapper savasas se2plot sedecomposition seeout sencode setx shellout shortdir shp2dta sigdif simqi sjlatex sjlog sjlog_7 spell2panel spellmerge spellsplit spex spmap spmap_arrow spmap_color spmap_diagram spmap_examples spmap_label spmap_line spmap_point spmap_polygon spmap_psl spmap_scalebar spostupdate srr statsmat stcmd stcstat2 stimeofday stpm2 stpm2_ml_hazard stpm2_ml_hazard_rs stpm2_ml_lf_hazard stpm2_ml_lf_hazard_rs stpm2_ml_lf_log stpm2_ml_lf_normal_rs stpm2_ml_lf_theta stpm2_ml_lf_theta_rs stpm2_ml_normal stpm2_ml_odds stpm2_ml_odds_rs stpm2_mttf stpm2_pred stpm2cm stpm2trt stpmean stsurvimpute studenttreg_lf sumqi surface svmat2 svmatsv svytabform synth synth_ll tabchi tabchii tabform tabl tablecol tabm tabout tabplot tabplot6 tabsort tabsort6 tabsplit tabsplit6 tabstatout tlogit tmpdir tobitiv tpm tpm_p tpm_svy_check trauma treatrew triss univstat usesas usesasdel varlab winsor xcollapse xmerge xmerged xml_tab xmlogplot xmlogview xpost xprchange xtab xtab2_p xtabond2 xtgraph xtmrho xtpqml</Keywords>
+            <Keywords name="Keywords6">alt areastack beep bootstrap_exit_early byxtline case_predict cgmreg clean_row_vector corrp csvvars deadline dhs_cmc did3 dropstringvars e_add_mean_y e_add_y_percent_n e_countif etcalconvert exceldesc foldercodebook foldercodebook_sub foldergraphexport fuzzy fvxi getcmds_personal glm_linear_test gmm_ipw_estimator gmm_ipw_estimator_moment_eval graphbetas hotdeck_simple icc_xt inteff iptate jcumul kak_add_ereturn kak_add_mean_y kak_add_percent0 kak_add_return kak_encode kak_graph kak_psgraph kgraph kk margfx margfx2 mat2txt2 mat_blockdiag mde_reg meantab meantab_example memmax missing_tab modmatch motionchart motionchart_example moveb mprcodebook normdiff normdiff_example npp od3 od3plot pdf predict_toggle predict_toggle_cum predlog2 prtest_pvalues pscompare psgraph_mod pstest_wgt pub2web qqplotloop qte r_multcomp reclink_lwiz_pairings reclink_weight scatter_hist scatter_hist_example tabcompare tabdummies teffects_ipw_mult teffects_ipw_mult_moment teffects_ipw_suest tpm_xtgee_mfx twostepxtreg txt2notes txtvarlist typelog usedrop varlist_type xilabel xtdesc</Keywords>
+            <Keywords name="Keywords7">_collate( _conj( _deriv( _diag( _docx*( _eigensystemselect_la( _eigensystemselectf_la( _eigensystemselecti_la( _eigensystemselectr_la( _equilc( _equilr( _equilrc( _error( _fillmissing( _flopin( _flopout( _gauss_hermite_nodes( _geigen_la( _geigenselectf_la( _geigenselecti_la( _geigenselectr_la( _geigensystem_la( _gschurd( _gschurdgroupby( _lsfitqr( _negate( _perhapsequilc( _perhapsequilr( _perhapsequilrc( _schurd( _schurdgroupby( _solvenl_solve( _substr( _symeigensystemselect_la( _toeplitzscale( _transpose( abbrev( abs( acos( acosh( ado_fromlchar( ado_intolchar( adosubdir( all( allof( any( anyof( arfimaacf( arfimapsdensity( arg( args( asarray( asarray_*( ascii( asin( asinh( assert( asserteq( atan( atan2( atanh( betaden( binomial( binomialp( binomialtail( binormal( blockdiag( bofd( breakkey( breakkeyreset( bufbfmtisnum( bufbfmtlen( bufbyteorder( bufget( bufio( bufmissingvalue( bufput( byteorder( C( c( callersversion( cat( Cdhms( ceil( char( chdir( chi2( chi2den( chi2tail( Chms( cholesky( cholinv( cholsolve( Clock( clock( cloglog( Cmdyhms( Cofc( cofC( Cofd( cofd( colmax( colmaxabs( colmin( colminmax( colmissing( colnonmissing( cols( colscalefactors( colshape( colsum( comb( cond( conj( convolve( Corr( corr( correlation( cos( cosh( crexternal( cross( crossdev( cvpermute( cvpermutesetup( date( day( deconvolve( deriv( deriv_init( deriv_init_*( deriv_query( deriv_result_*( designmatrix( det( dettriangular( dgammapda( dgammapdada( dgammapdadx( dgammapdx( dgammapdxdx( dhms( diag( diag0cnt( diagonal( digamma( dir( direxists( direxternal( display( displayas( displayflush( Dmatrix( dofb( dofC( dofc( dofh( dofm( dofq( dofw( dofy( dow( doy( dsign( dunnettprob( e( editmissing( edittoint( edittointtol( edittozero( edittozerotol( editvalue( eigensystem( eigensystemselectf( eigensystemselecti( eigensystemselectr( eigenvalues( eltype( epsilon( error( errprintf( exit( exp( F( factorial( favorspeed( fbufget( fbufput( fclose( Fden( ferrortext( fft( fget( fgetmatrix( fgetnl( fileexists( findexternal( findfile( floatround( floor( fmtwidth( fopen( fput( fputmatrix( fread( freturncode( frombase( fseek( fstatus( Ftail( ftell( ftfreqs( ftpad( ftperiodogram( ftretime( ftruncate( ftunwrap( ftwrap( fullsdiag( fullsvd( fwrite( gamma( gammaden( gammap( gammaptail( geigensystem( geigensystemselectf( geigensystemselecti( geigensystemselectr( ghalton( ghessenbergd( ghk( ghk_init( ghk_init_*( ghk_query_npts( ghkfast( ghkfast_i( ghkfast_init( ghkfast_init_*( ghkfast_query_*( gschurd( gschurdgroupby( halfyear( halfyearly( halton( hash1( hasmissing( hessenbergd( hh( hhC( Hilbert( hms( hofd( hours( hqrd( hqrdmultq( hqrdmultq1t( hqrdp( hqrdq( hqrdq1( hqrdr( hqrdr1( hypergeometric( hypergeometricp( I( ibeta( ibetatail( Im( inbase( indexnot( invbinomial( invbinomialtail( invchi2( invchi2tail( invcloglog( invdunnettprob( invF( invfft( invFtail( invgammap( invgammaptail( invHilbert( invibeta( invibetatail( invlogit( invnbinomial( invnbinomialtail( invnchi2( invnchi2tail( invnFtail( invnibeta( invnormal( invnttail( invorder( invpoisson( invpoissontail( invsym( invt( invtokens( invttail( invtukeyprob( invvech( iscomplex( isdiagonal( isfleeting( ispointer( isreal( isrealvalues( isstring( issymmetric( issymmetriconly( isview( J( jumble( Kmatrix( LA_*( lefteigensystem( lefteigensystemselectf( lefteigensystemselecti( lefteigensystemselectr( leftgeigensystem( leftgeigensystemselectf( leftgeigensystemselecti( leftgeigensystemselectr( length( liststruct( Lmatrix( ln( lnfactorial( lngamma( lnnormal( lnnormalden( log( log10( logit( lowertriangle( lud( luinv( lusolve( makesymmetric( matexpsym( matlogsym( matpowersym( max( maxdouble( maxindex( mdy( mdyhms( mean( meanvariance( min( mindouble( minindex( minmax( minutes( missing( missingof( mkdir( mm( mmC( mod( mofd( month( monthly( moptimize( moptimize_ado_cleanup( moptimize_evaluate( moptimize_init( moptimize_init_*( moptimize_query( moptimize_result_*( moptimize_util_*( more( mreldif( mreldifre( mreldifsym( msofhours( msofminutes( msofseconds( nameexternal( nbetaden( nbinomial( nbinomialp( nbinomialtail( nchi2( nchi2den( nchi2tail( nF( nFden( nFtail( nibeta( nonmissing( norm( normal( normalden( npnchi2( npnF( npnt( nt( ntden( nttail( optimize( optimize_evaluate( optimize_init( optimize_init_*( optimize_query( optimize_result_*( order( orgtype( panelsetup( panelstats( panelsubmatrix( panelsubview( panelsum( pathasciisuffix( pathbasename( pathisabs( pathisurl( pathjoin( pathlist( pathrmsuffix( pathsearchlist( pathsplit( pathstatasuffix( pathsubsysdir( pathsuffix( pi( pinv( poisson( poissonp( poissontail( polyadd( polyderiv( polydiv( polyeval( polyinteg( polymult( polyroots( polysolve( polytrim( printf( pwd( qofd( qrd( qrdp( qrinv( qrsolve( quadcolsum( quadcorrelation( quadcross( quadcrossdev( quadmeanvariance( quadrant( quadrowsum( quadrunningsum( quadsum( quadvariance( quarter( quarterly( querybreakintr( range( rangen( rank( rbeta( rbinomial( rchi2( rdiscrete( Re( regexm( regexr( regexs( reldif( revorder( rgamma( rhypergeometric( rmdir( rmexternal( rnbinomial( rnormal( robust( round( rowmax( rowmaxabs( rowmin( rowminmax( rowmissing( rownonmissing( rows( rowscalefactors( rowshape( rowsum( rpoisson( rseed( rt( runiform( runningsum( schurd( schurdgroupby( seconds( select( selectindex( setbreakintr( setmore( setmoreonexit( sign( sin( sinh( sizeof( smallestdouble( solve_tol( solvelower( solvenl*( solveupper( sort( soundex( soundex_nara( spline3( spline3eval( SPMATbanded*( sprintf( sqrt( ss( ssC( st_addobs( st_addvar( st_data( st_dir( st_dropobsif( st_dropobsin( st_dropvar( st_eclear( st_fopen( st_freadsignature( st_fwritesignature( st_global( st_global_hcat( st_isfmt( st_islmname( st_isname( st_isnumfmt( st_isnumvar( st_isstrfmt( st_isstrvar( st_keepobsif( st_keepobsin( st_keepvar( st_lchar( st_local( st_macroexpand( st_matrix( st_matrix*stripe_*( st_matrix_hcat( st_matrix_list( st_matrixcolstripe( st_matrixrowstripe( st_ms_unab( st_nobs( st_numscalar( st_numscalar_hcat( st_nvar( st_rclear( st_replacematrix( st_sclear( st_sdata( st_select( st_sstore( st_store( st_strscalar( st_subview( st_sview( st_tempfilename( st_tempname( st_tsrevar( st_updata( st_varformat( st_varindex( st_varlabel( st_varname( st_varrename( st_vartype( st_varvaluelabel( st_view( st_viewobs( st_viewvars( st_vldrop( st_vlexists( st_vlload( st_vlmap( st_vlmodify( st_vlsearch( stata( statasetversion( stataversion( strdup( stritrim( strlen( strlower( strltrim( strmatch( strofreal( strpos( strproper( strreverse( strrtrim( strtoname( strtoreal( strtrim( strupper( subinstr( subinword( sublowertriangle( substr( sum( svd( svdsv( svsolve( swap( symeigensystem( symeigensystemselecti( symeigensystemselectr( symeigenvalues( t( tan( tanh( tden( timer( timer_clear( timer_off( timer_on( timer_value( Toeplitz( toeplitzchprod( toeplitzscale( toeplitzsolve( tokenallowhex( tokenallownum( tokenget( tokengetall( tokeninit( tokeninitstata( tokenoffset( tokenpchars( tokenpeek( tokenqchars( tokenrest( tokens( tokenset( tokenwchars( trace( trace_ABBAV( trace_AVBV( transposeonly( trigamma( trunc( ttail( tukeyprob( ucmpsdensity( uniqrows( unitcircle( unlink( unorder( uppertriangle( valofexternal( Vandermonde( variance( vec( vech( week( weekly( wofd( xl( year( yearly( yh( ym( yofd( yq( yw(</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00`&quot; 01 02&quot;&apos; 03` 04 05&apos; 06&quot; 07 08&quot; 09` 10 11&apos; 12`&quot; 13 14&quot;&apos; 15&quot; 16 17&quot; 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="74743A" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="74743A" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0080" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFF00" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF8040" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="2B2BFF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="747474" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="008080" bgColor="F0F0F0" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="13" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="50" />
+            <WordsStyle name="DELIMITERS3" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="9" />
+            <WordsStyle name="DELIMITERS4" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="9" />
+            <WordsStyle name="DELIMITERS5" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="50" />
+            <WordsStyle name="DELIMITERS6" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="18" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
 </NotepadPlus>
