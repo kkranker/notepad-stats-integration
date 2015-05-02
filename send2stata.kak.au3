@@ -5,12 +5,12 @@ send2stata.kak.au3
 By Keith Kranker
 Last update Aug 18 2008
 
-Website & Instructions 
+Website & Instructions
 at http://www.econ.umd.edu/~kranker/code/notepad_to_stata.php
 
-Credits: 
+Credits:
 
-Jeffrey Arnold's Send2Stata.au3 script and .ini files posted 
+Jeffrey Arnold's Send2Stata.au3 script and .ini files posted
 at http://www.hsph.harvard.edu/cgi-bin/lwgate/STATALIST/archives/statalist.0608/date/article-886.html
 
 and Friedrich Huebler's  rundo.au3 rundolines.au3 scripts posted
@@ -44,7 +44,7 @@ $handle = WinGetHandle("active","")
 
 ; Save file in Notepad++ before running this program
 If $savefile = 1 Then
-	Send("^s") 
+	Send("^s")
 EndIf
 
 ; If more than one Stata window is open, the window

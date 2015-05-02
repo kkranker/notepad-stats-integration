@@ -5,12 +5,12 @@ helpdolines.kak.au3
 By Keith Kranker
 Last update Aug 18 2008
 
-Website & Instructions 
+Website & Instructions
 at http://www.econ.umd.edu/~kranker/code/notepad_to_stata.php
 
-Credits: 
+Credits:
 
-Jeffrey Arnold's Send2Stata.au3 script and .ini files posted 
+Jeffrey Arnold's Send2Stata.au3 script and .ini files posted
 at http://www.hsph.harvard.edu/cgi-bin/lwgate/STATALIST/archives/statalist.0608/date/article-886.html
 
 and Friedrich Huebler's  rundo.au3 rundolines.au3 scripts posted
@@ -45,7 +45,7 @@ Sleep(100)
 $commands = ClipGet()
 
 ; Copy the current line if nothing selected
-If $commands = "" Then 
+If $commands = "" Then
   ; Go to beginning of line, select first word in line
   Send("{HOME}" & "^+{RIGHT}")
   ; Copy selected lines from editor to clipboard
@@ -56,7 +56,7 @@ If $commands = "" Then
 EndIf
 
 ; Terminate script if (still) nothing selected
-If $commands = "" Then 
+If $commands = "" Then
   Exit
 EndIf
 
